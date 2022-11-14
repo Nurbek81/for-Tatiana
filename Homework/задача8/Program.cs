@@ -16,14 +16,13 @@ while ( count < N )
 if(count  % 2 == 0)
  {
     Console.WriteLine(count);
-    count = count+1;
+    
  }
  else
  {
    Console.WriteLine("-");
-   count = count+1;
+   
  }
+ count++;
 }
-
-
 
